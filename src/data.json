@@ -1,0 +1,306 @@
+
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Avengers: Endgame",
+        "description": "The Avengers take a final stand against Thanos in Marvel Studios' epic conclusion to twenty-two films.",
+        "trailerUrl": "https://www.youtube.com/embed/TcMBFSGVi1c?si=7Lcfma2T7ubwicgW&amp" ,
+        "duration": "3h 2m",
+        "genre": ["Action", "Adventure", "Sci-Fi"],
+        "rating": "PG-13",
+        "poster_url": "/public/endgame.jpg",
+        "showtimes": [
+          "2024-09-07T14:00:00",
+          "2024-09-07T17:30:00",
+          "2024-09-07T21:00:00"
+        ],
+        "theatres": [
+          {
+            "id": 1,
+            "name": "Grand Cinema",
+            "location": "Main Street 123, Downtown",
+            "corner_seats": [
+              { "seat_number": "A1", "available": true, "price": 15 },
+              { "seat_number": "A2", "available": false, "price": 15 }
+            ],
+            "regular_seats": [
+              { "seat_number": "B1", "available": true, "price": 12 },
+              { "seat_number": "B2", "available": true, "price": 12 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Inception",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+        "trailerUrl": "https://www.youtube.com/embed/YoHD9XEInc0?si=9SeuxhSIznqOiuj3&amp;start=8" ,
+        "duration": "2h 28m",
+        "genre": ["Action", "Adventure", "Sci-Fi"],
+        "rating": "PG-13",
+        "poster_url": "/public/inceptionposter.jpg",
+        "showtimes": [
+          "2024-09-07T13:00:00",
+          "2024-09-07T16:00:00",
+          "2024-09-07T19:30:00"
+        ],
+        "theatres": [
+          {
+            "id": 2,
+            "name": "Cinema Paradise",
+            "location": "Park Avenue 456, Uptown",
+            "corner_seats": [
+              { "seat_number": "C1", "available": true, "price": 16 },
+              { "seat_number": "C2", "available": true, "price": 16 }
+            ],
+            "regular_seats": [
+              { "seat_number": "D1", "available": false, "price": 13 },
+              { "seat_number": "D2", "available": true, "price": 13 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Interstellar",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "trailerUrl": "https://www.youtube.com/embed/zSWdZVtXT7E?si=eGLpEkhgULilXhKO&amp" ,
+        "duration": "2h 49m",
+        "genre": ["Adventure", "Drama", "Sci-Fi"],
+        "rating": "PG-13",
+        "poster_url": "/public/intesposter.jpg",
+        "showtimes": [
+          "2024-09-07T15:00:00",
+          "2024-09-07T18:00:00",
+          "2024-09-07T21:30:00"
+        ],
+        "theatres": [
+          {
+            "id": 3,
+            "name": "Star Cinema",
+            "location": "Sunset Blvd 789, Midtown",
+            "corner_seats": [
+              { "seat_number": "E1", "available": true, "price": 14 },
+              { "seat_number": "E2", "available": false, "price": 14 }
+            ],
+            "regular_seats": [
+              { "seat_number": "F1", "available": true, "price": 11 },
+              { "seat_number": "F2", "available": true, "price": 11 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Joker",
+        "description": "In Gotham City's fractured society, mentally troubled comedian Arthur Fleck embarks on a downward spiral.",
+        "trailerUrl": "https://www.youtube.com/embed/zAGVQLHvwOY?si=z0rXO5OTdn5uVR8r&amp" ,
+        "duration": "2h 2m",
+        "genre": ["Crime", "Drama", "Thriller"],
+        "rating": "R",
+        "poster_url": "/public/joker.jpg",
+        "showtimes": [
+          "2024-09-07T17:00:00",
+          "2024-09-07T20:00:00",
+          "2024-09-07T22:30:00"
+        ],
+        "theatres": [
+          {
+            "id": 4,
+            "name": "Royal Cinema",
+            "location": "Broadway 123, Downtown",
+            "corner_seats": [
+              { "seat_number": "G1", "available": false, "price": 18 },
+              { "seat_number": "G2", "available": true, "price": 18 }
+            ],
+            "regular_seats": [
+              { "seat_number": "H1", "available": true, "price": 15 },
+              { "seat_number": "H2", "available": true, "price": 15 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "The Dark Knight",
+        "description": "Batman raises the stakes in his war on crime, facing the Joker, a criminal mastermind who wants to bring Gotham to its knees.",
+        "trailerUrl": "https://www.youtube.com/embed/EXeTwQWrcwY?si=P4ruKazyMjrMSYPJ&amp;start=8" ,
+        "duration": "2h 32m",
+        "genre": ["Action", "Crime", "Drama"],
+        "rating": "PG-13",
+        "poster_url": "/public/darknight.jpg",
+        "showtimes": [
+          "2024-09-07T14:30:00",
+          "2024-09-07T17:30:00",
+          "2024-09-07T20:30:00"
+        ],
+        "theatres": [
+          {
+            "id": 1,
+            "name": "Grand Cinema",
+            "location": "Main Street 123, Downtown",
+            "corner_seats": [
+              { "seat_number": "A3", "available": true, "price": 15 },
+              { "seat_number": "A4", "available": true, "price": 15 }
+            ],
+            "regular_seats": [
+              { "seat_number": "B3", "available": true, "price": 12 },
+              { "seat_number": "B4", "available": false, "price": 12 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Tenet",
+        "description": "Armed with only one word, 'Tenet', and fighting for the survival of the world, a protagonist journeys through a twilight world of international espionage.",
+        "trailerUrl": "https://www.youtube.com/embed/AZGcmvrTX9M?si=r-nWUCF6QTMtvpqW&amp" ,
+        "duration": "2h 30m",
+        "genre": ["Action", "Sci-Fi", "Thriller"],
+        "rating": "PG-13",
+        "poster_url": "tenet.jpg",
+        "showtimes": [
+          "2024-09-07T15:30:00",
+          "2024-09-07T18:30:00",
+          "2024-09-07T21:30:00"
+        ],
+        "theatres": [
+          {
+            "id": 3,
+            "name": "Star Cinema",
+            "location": "Sunset Blvd 789, Midtown",
+            "corner_seats": [
+              { "seat_number": "E3", "available": true, "price": 14 },
+              { "seat_number": "E4", "available": false, "price": 14 }
+            ],
+            "regular_seats": [
+              { "seat_number": "F3", "available": true, "price": 11 },
+              { "seat_number": "F4", "available": true, "price": 11 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Dune",
+        "description": "Feature adaptation of Frank Herbert's science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset in the galaxy.",
+        "trailerUrl": "https://www.youtube.com/embed/n9xhJrPXop4?si=gVque4AQjwor7AbE&amp;start=8" ,
+        "duration": "2h 35m",
+        "genre": ["Action", "Adventure", "Drama"],
+        "rating": "PG-13",
+        "poster_url": "/public/dune.jpg",
+        "showtimes": [
+          "2024-09-07T13:00:00",
+          "2024-09-07T16:00:00",
+          "2024-09-07T19:00:00"
+        ],
+        "theatres": [
+          {
+            "id": 2,
+            "name": "Cinema Paradise",
+            "location": "Park Avenue 456, Uptown",
+            "corner_seats": [
+              { "seat_number": "C3", "available": true, "price": 16 },
+              { "seat_number": "C4", "available": true, "price": 16 }
+            ],
+            "regular_seats": [
+              { "seat_number": "D3", "available": false, "price": 13 },
+              { "seat_number": "D4", "available": true, "price": 13 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Spider-Man: No Way Home",
+        "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
+        "trailerUrl": "https://www.youtube.com/embed/JfVOs4VSpmA?si=XnLBxyrEmvtMltyx&amp" ,
+        "duration": "2h 28m",
+        "genre": ["Action", "Adventure", "Fantasy"],
+        "rating": "PG-13",
+        "poster_url": "/public/spider.jpg",
+        "showtimes": [
+          "2024-09-07T15:00:00",
+          "2024-09-07T18:00:00",
+          "2024-09-07T21:00:00"
+        ],
+        "theatres": [
+          {
+            "id": 4,
+            "name": "Royal Cinema",
+            "location": "Broadway 123, Downtown",
+            "corner_seats": [
+              { "seat_number": "G3", "available": true, "price": 18 },
+              { "seat_number": "G4", "available": false, "price": 18 }
+            ],
+            "regular_seats": [
+              { "seat_number": "H3", "available": true, "price": 15 },
+              { "seat_number": "H4", "available": true, "price": 15 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Guardians of the Galaxy Vol. 3",
+        "description": "Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own.",
+        "trailerUrl": "https://www.youtube.com/embed/u3V5KDHRQvk?si=wxCncY34SXIO9fgK&amp" ,
+        "duration": "2h 29m",
+        "genre": ["Action", "Adventure", "Comedy"],
+        "rating": "PG-13",
+        "poster_url": "/public/vol3.avif",
+        "showtimes": [
+          "2024-09-07T14:30:00",
+          "2024-09-07T17:30:00",
+          "2024-09-07T20:30:00"
+        ],
+        "theatres": [
+          {
+            "id": 1,
+            "name": "Grand Cinema",
+            "location": "Main Street 123, Downtown",
+            "corner_seats": [
+              { "seat_number": "A5", "available": true, "price": 15 },
+              { "seat_number": "A6", "available": true, "price": 15 }
+            ],
+            "regular_seats": [
+              { "seat_number": "B5", "available": true, "price": 12 },
+              { "seat_number": "B6", "available": false, "price": 12 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "The Matrix Resurrections",
+        "description": "Return to a world of two realities: one, everyday life; the other, what lies behind it. To truly know himself, Neo will have to choose to follow the white rabbit again.",
+        "trailerUrl": "https://www.youtube.com/embed/9ix7TUGVYIo?si=Z0viM0YgOGg72So2&amp" ,
+        "duration": "2h 28m",
+        "genre": ["Action", "Sci-Fi"],
+        "rating": "R",
+        "poster_url": "/public/matrix.jpg",
+        "showtimes": [
+          "2024-09-07T16:00:00",
+          "2024-09-07T19:00:00",
+          "2024-09-07T22:00:00"
+        ],
+        "theatres": [
+          {
+            "id": 2,
+            "name": "Cinema Paradise",
+            "location": "Park Avenue 456, Uptown",
+            "corner_seats": [
+              { "seat_number": "C5", "available": false, "price": 16 },
+              { "seat_number": "C6", "available": true, "price": 16 }
+            ],
+            "regular_seats": [
+              { "seat_number": "D5", "available": true, "price": 13 },
+              { "seat_number": "D6", "available": true, "price": 13 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
