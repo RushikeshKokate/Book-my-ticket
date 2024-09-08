@@ -52,7 +52,7 @@ const Seat = () => {
   return (
     <div className="text-white p-4 min-h-screen bg-gray-800">
       <h1 className="text-2xl md:text-3xl font-bold pl-4 md:pl-10 pt-6 md:pt-10 pb-2">{title}</h1>
-      <span className='block text-3xl font-semibold mb-2 text-yellow-400'>{theater}</span>
+      <span className='block text-3xl font-semibold mb-2 ml-9 text-yellow-400'>{theater}</span>
       <p className="text-lg md:text-xl pl-4 md:pl-10 mb-2">Time: {time}</p>
       <p className="text-lg md:text-xl pl-4 md:pl-10 mb-6">Date: {datee}</p>
       <div className="flex justify-center">
