@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: [], // Avoid externalizing react-redux
-    },
+      external: ['react-redux', 'redux', 'react-router-dom']
+    }
   },
 });
