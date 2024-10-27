@@ -73,7 +73,7 @@ const Navbar = ({ takeSearchInput, itemInCart  }) => {
           <Link to="/Theater" onClick={() => setOpen(!open)} className="text-xl font-bold hover:text-gray-400 transition duration-300">
             Book your theater
           </Link>
-          <Link to="/contact" onClick={() => setOpen(!open)} className="text-xl font-bold hover:text-gray-400 transition duration-300">
+          <Link to="/ContactUs" onClick={() => setOpen(!open)} className="text-xl font-bold hover:text-gray-400 transition duration-300">
             Contact Us
           </Link>
           
