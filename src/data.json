@@ -219,7 +219,7 @@
         "duration": "2h 28m",
         "genre": ["Action", "Adventure", "Fantasy"],
         "rating": "PG-13",
-        "poster_url": "./public/spider.jpg",
+        "poster_url": "public/spider.jpg",
         "showtimes": [
           "2024-09-07T15:00:00",
           "2024-09-07T18:00:00",
