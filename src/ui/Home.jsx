@@ -5,24 +5,19 @@ import card2 from '../assets/card2.png';
 import card3 from '../assets/card3.png';
 import { movies } from '../data.json';
 import { useNavigate } from 'react-router-dom';
-import { addToCart } from '../redux/cartSlice';
-import { useDispatch } from 'react-redux';
 
+ 
 const Home = ({ search }) => {
   const navigate = useNavigate();
   const [filteredMovies, setFilteredMovies] = useState(movies);
   const [showPopup, setShowPopup] = useState(false);
-  const dispatch = useDispatch();
+ 
 
   const handleClick = (title) => {
     navigate("/Movie", { state: { title: title } });
   };
 
-  const handleAddToCart = (movie) => {
-    dispatch(addToCart(movie));
-    setShowPopup(true);   
-    setTimeout(() => setShowPopup(false), 2000);  
-  };
+ 
 
   useEffect(() => {
     if (search) {
@@ -66,11 +61,12 @@ const Home = ({ search }) => {
           </span>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6"  >
           {filteredMovies.map((movie) => (
             <div
               key={movie.id}
               className='border-2 border-gray-700 rounded-lg overflow-hidden bg-gray-800 shadow-lg'
+              onClick={() => handleClick(movie.title)}
             >
               <img
                 src={movie.poster_url}
@@ -83,16 +79,7 @@ const Home = ({ search }) => {
                 <p className='text-gray-400 text-sm'>{movie.description}</p>
                 <p className='text-gray-400 text-sm mt-2'>Duration: {movie.duration}</p>
                 <p className='text-gray-400 text-sm'>Genre: {movie.genre.join(', ')}</p>
-                <div className='flex gap-2'>
-                  <button onClick={() => handleAddToCart(movie)} className=' p-1 mt-2 border text-sm rounded-md text-white'>
-                    Add to Cart
-                  </button>
-                  <button 
-                    onClick={() => handleClick(movie.title)}
-                    className='bg-yellow-400 p-1 mt-2 border rounded-md text-black font-bold'>
-                    Book now
-                  </button>
-                </div>
+                 
               </div>
             </div>
           ))}

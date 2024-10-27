@@ -18,7 +18,7 @@ const Navbar = ({ takeSearchInput, itemInCart  }) => {
     <>
       <nav className="p-4 bg-black sticky top-0 z-50">
         <div className="hidden lg:flex items-center">
-          <h2 className="text-gray-100 font-bold text-2xl">TicketsFORyou</h2>
+          <h2 className="text-gray-100 font-bold text-2xl"><Link to={"/"}>TicketsFORyou</Link></h2>
           <ul className="gap-6 ml-8 flex">
             <li className="text-gray-100 font-semibold cursor-pointer hover:text-gray-400">
               <Link to="/">Home</Link>
@@ -31,7 +31,7 @@ const Navbar = ({ takeSearchInput, itemInCart  }) => {
             </li>
           </ul>
           <Link className="flex ml-auto text-gray-100 cursor-pointer hover:text-gray-400" to="/Cart">
-            <FaShoppingCart className="text-gray-100 cursor-pointer hover:text-gray-400" aria-label="Shopping Cart" />
+           
             
           </Link>
           <input
@@ -44,12 +44,20 @@ const Navbar = ({ takeSearchInput, itemInCart  }) => {
         </div>
 
         <div className="flex lg:hidden justify-between items-center">
-          <h2 className="text-gray-100 font-bold text-lg">TicketsFORyou</h2>
+          <h2 className="text-gray-100 font-bold text-lg"><Link to={"/"}>TicketsFORyou</Link></h2>
+          
           <div className="flex gap-4">
             <Link className="ml-auto text-gray-100 cursor-pointer hover:text-gray-400" to="/Cart">
-              <FaShoppingCart className="text-gray-100 cursor-pointer hover:text-gray-400" aria-label="Shopping Cart" />
+               
                
             </Link>
+            <input
+            type="text"
+            placeholder="Search movies"
+            className="ml-4 max-md:w-[40vw] h-10 border border-gray-600 rounded-md p-2 bg-gray-800 text-gray-100 placeholder-gray-500 focus:outline-none focus:border-gray-400"
+            value={data}
+            onChange={(e) => handleChange(e.target.value)}
+          />
             <button onClick={() => setOpen(!open)}>
               <TiThMenu className="text-gray-100 cursor-pointer hover:text-gray-400" aria-label="menu" />
             </button>
@@ -68,6 +76,7 @@ const Navbar = ({ takeSearchInput, itemInCart  }) => {
           <Link to="/contact" onClick={() => setOpen(!open)} className="text-xl font-bold hover:text-gray-400 transition duration-300">
             Contact Us
           </Link>
+          
         </div>
       )}
     </>

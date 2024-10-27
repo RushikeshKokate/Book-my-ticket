@@ -43,7 +43,8 @@ const Payment = () => {
     <div className="text-white p-6 min-h-screen bg-gray-800">
       <h1 className="text-3xl font-bold mb-4">Payment Details</h1>
       <span className='block text-xl font-semibold mb-2 text-yellow-400'>{theater}</span>
-      <h2 className="text-xl font-bold mb-4">Final Amount: {final} Rs</h2>
+      <span className='block text-xl font-semibold mb-2 text-yellow-400'>{title}</span>
+      {/* <h2 className="text-xl font-bold mb-4">Final Amount: {final} Rs</h2> */}
       <div className="bg-gray-700 p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <div>

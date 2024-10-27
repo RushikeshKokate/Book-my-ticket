@@ -9,7 +9,7 @@ import MovieCard from './ui/MovieCard';
 import Seat from './ui/Seat';
 import Payment from './ui/Payment';
 import Sucess from './ui/Sucess';
-import Cart from './ui/Cart';
+
 
 function App() {
   const [search, setSearch] = useState('');
@@ -37,7 +37,7 @@ function App() {
         <Route path='/Seat' element={<Seat />} />
         <Route path='/Payment' element={<Payment />} />
         <Route path='/Sucess' element={<Sucess />} />
-        <Route path='/Cart' element={<Cart itemCount={itemCount} />} />
+        
       </Routes>
     </div>
   );
