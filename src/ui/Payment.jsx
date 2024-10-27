@@ -141,7 +141,6 @@ const Payment = () => {
                 onChange={(e) => setUpiId(e.target.value)}
                 className="w-full p-2 rounded-md border border-gray-600 bg-gray-800 text-white"
                 required
-                pattern="[a-zA-Z0-9._-]+@[a-zA-Z]+\.[a-zA-Z]{2,6}"  
                 title="Enter a valid UPI ID"
               />
             </div>
