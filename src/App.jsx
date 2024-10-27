@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Navbar from './ui/Navbar';
 import './App.css';
 import Home from './ui/Home';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TheaterPage from './ui/TheaterPage';
 import ContactUsPage from './ui/ContactUsPage';
 import MovieCard from './ui/MovieCard';
