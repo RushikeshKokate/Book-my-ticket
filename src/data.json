@@ -9,7 +9,7 @@
         "duration": "3h 2m",
         "genre": ["Action", "Adventure", "Sci-Fi"],
         "rating": "PG-13",
-        "poster_url": "/public/endgame.jpg",
+        "poster_url": "./public/endgame.jpg",
         "showtimes": [
           "2024-09-07T14:00:00",
           "2024-09-07T17:30:00",
@@ -39,7 +39,7 @@
         "duration": "2h 28m",
         "genre": ["Action", "Adventure", "Sci-Fi"],
         "rating": "PG-13",
-        "poster_url": "/public/inceptionposter.jpg",
+        "poster_url": "./public/inceptionposter.jpg",
         "showtimes": [
           "2024-09-07T13:00:00",
           "2024-09-07T16:00:00",
@@ -69,7 +69,7 @@
         "duration": "2h 49m",
         "genre": ["Adventure", "Drama", "Sci-Fi"],
         "rating": "PG-13",
-        "poster_url": "/public/intesposter.jpg",
+        "poster_url": "./public/intesposter.jpg",
         "showtimes": [
           "2024-09-07T15:00:00",
           "2024-09-07T18:00:00",
@@ -99,7 +99,7 @@
         "duration": "2h 2m",
         "genre": ["Crime", "Drama", "Thriller"],
         "rating": "R",
-        "poster_url": "/public/joker.jpg",
+        "poster_url": "./public/joker.jpg",
         "showtimes": [
           "2024-09-07T17:00:00",
           "2024-09-07T20:00:00",
@@ -129,7 +129,7 @@
         "duration": "2h 32m",
         "genre": ["Action", "Crime", "Drama"],
         "rating": "PG-13",
-        "poster_url": "/public/darknight.jpg",
+        "poster_url": "./public/darknight.jpg",
         "showtimes": [
           "2024-09-07T14:30:00",
           "2024-09-07T17:30:00",
@@ -189,7 +189,7 @@
         "duration": "2h 35m",
         "genre": ["Action", "Adventure", "Drama"],
         "rating": "PG-13",
-        "poster_url": "/public/dune.jpg",
+        "poster_url": "./public/dune.jpg",
         "showtimes": [
           "2024-09-07T13:00:00",
           "2024-09-07T16:00:00",
@@ -219,7 +219,7 @@
         "duration": "2h 28m",
         "genre": ["Action", "Adventure", "Fantasy"],
         "rating": "PG-13",
-        "poster_url": "/public/spider.jpg",
+        "poster_url": "./public/spider.jpg",
         "showtimes": [
           "2024-09-07T15:00:00",
           "2024-09-07T18:00:00",
@@ -249,7 +249,7 @@
         "duration": "2h 29m",
         "genre": ["Action", "Adventure", "Comedy"],
         "rating": "PG-13",
-        "poster_url": "/public/vol3.avif",
+        "poster_url": "./public/vol3.avif",
         "showtimes": [
           "2024-09-07T14:30:00",
           "2024-09-07T17:30:00",
@@ -279,7 +279,7 @@
         "duration": "2h 28m",
         "genre": ["Action", "Sci-Fi"],
         "rating": "R",
-        "poster_url": "/public/matrix.jpg",
+        "poster_url": "./public/matrix.jpg",
         "showtimes": [
           "2024-09-07T16:00:00",
           "2024-09-07T19:00:00",
